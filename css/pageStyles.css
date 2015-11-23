@@ -1,0 +1,68 @@
+nav {
+	position: relative;
+	left: 160px;
+}
+.nav {/* For logo and menu items */
+	/*margin-top: 200px;*/
+	/*padding: 10px;*/
+	display: inline;
+	text-decoration: none;
+}
+.nav a {/* For nav links */
+	text-decoration: none;
+	color: #F7FAFB;
+	font-size: 1.2em;
+	font-family: 'Slabo 27px', serif;
+}
+.logo {
+}
+.navs {/* For menu items, not logo */
+	background-color: #6C7D3C;
+
+	position: relative;
+	bottom: 35px;
+	left: 25px;
+	padding: 6px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 25px;
+	border-radius: 5px;
+}
+.front {
+	position: relative;
+	top: 75px;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16pt;
+}
+#tagline {
+	font-size: 30pt;
+}
+.art {
+	float:left;
+	position: relative;
+	left:100px;
+}
+.side {
+	float:left;
+}
+
+/* Extra Styles
+<ul>
+	<li><a href="#">Home</a></li>
+	<li><a href="#">About</a></li>
+</ul>
+
+**Colors**
+Green backgrounds
+#6C7D3C
+#63A41D
+#498535
+#31952C
+
+Light Text
+#F7FAFB
+#DAE3E0
+#3C87D9
+#F6D1C8
+*/
