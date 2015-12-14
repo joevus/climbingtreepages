@@ -3,7 +3,7 @@
 .medb2{
 position: absolute;
 left: 603px;
-top: 311px;
+top: 341px;
 width: 491px;
 height: 150px;
 z-index: 50;
@@ -11,7 +11,7 @@ z-index: 50;
 .big{
 position: absolute;
 left: 0px;
-top: 243px;
+top: 273px;
 width: 640px;
 height: 114px;
 z-index: 49;
@@ -19,7 +19,7 @@ z-index: 49;
 .medb1{
 position: absolute;
 left: 607px;
-top: 167px;
+top: 197px;
 width: 491px;
 height: 151px;
 z-index: 48;
@@ -27,7 +27,7 @@ z-index: 48;
 .med1{
 position: absolute;
 left: 8px;
-top: 291px;
+top: 321px;
 width: 224px;
 height: 359px;
 z-index: 47;
@@ -35,7 +35,7 @@ z-index: 47;
 .med2{
 position: absolute;
 left: 281px;
-top: 291px;
+top: 321px;
 width: 224px;
 height: 359px;
 z-index: 46;
@@ -43,7 +43,7 @@ z-index: 46;
 .med3{
 position: absolute;
 left: 554px;
-top: 291px;
+top: 321px;
 width: 224px;
 height: 359px;
 z-index: 45;
@@ -51,7 +51,7 @@ z-index: 45;
 .med4{
 position: absolute;
 left: 42px;
-top: -11px;
+top: 19px;
 width: 224px;
 height: 359px;
 z-index: 44;
@@ -59,7 +59,7 @@ z-index: 44;
 .med5{
 position: absolute;
 left: 330px;
-top: -24px;
+top: 6px;
 width: 224px;
 height: 359px;
 z-index: 43;
@@ -67,7 +67,7 @@ z-index: 43;
 .med6{
 position: absolute;
 left: 570px;
-top: -24px;
+top: 6px;
 width: 224px;
 height: 359px;
 z-index: 42;
@@ -75,7 +75,7 @@ z-index: 42;
 .smb3_med6{
 position: absolute;
 left: 624px;
-top: 94px;
+top: 124px;
 width: 162px;
 height: 67px;
 z-index: 41;
@@ -83,7 +83,7 @@ z-index: 41;
 .smb1_med6{
 position: absolute;
 left: 617px;
-top: 197px;
+top: 227px;
 width: 156px;
 height: 61px;
 z-index: 40;
@@ -91,7 +91,7 @@ z-index: 40;
 .smb4_med6{
 position: absolute;
 left: 645px;
-top: 45px;
+top: 75px;
 width: 164px;
 height: 47px;
 z-index: 39;
@@ -99,7 +99,7 @@ z-index: 39;
 .smb2_med6{
 position: absolute;
 left: 621px;
-top: 151px;
+top: 181px;
 width: 164px;
 height: 47px;
 z-index: 38;
@@ -107,7 +107,7 @@ z-index: 38;
 .smb5_med6{
 position: absolute;
 left: 755px;
-top: -25px;
+top: 5px;
 width: 164px;
 height: 47px;
 z-index: 37;
@@ -115,7 +115,7 @@ z-index: 37;
 .smb3_med3{
 position: absolute;
 left: 610px;
-top: 468px;
+top: 498px;
 width: 161px;
 height: 67px;
 z-index: 36;
@@ -123,7 +123,7 @@ z-index: 36;
 .smb1_med3{
 position: absolute;
 left: 604px;
-top: 371px;
+top: 401px;
 width: 156px;
 height: 61px;
 z-index: 35;
@@ -131,7 +131,7 @@ z-index: 35;
 .smb4_med3{
 position: absolute;
 left: 633px;
-top: 524px;
+top: 554px;
 width: 164px;
 height: 47px;
 z-index: 34;
@@ -139,7 +139,7 @@ z-index: 34;
 .smb2_med3{
 position: absolute;
 left: 607px;
-top: 432px;
+top: 462px;
 width: 164px;
 height: 47px;
 z-index: 33;
@@ -147,7 +147,7 @@ z-index: 33;
 .smb5_med3{
 position: absolute;
 left: 735px;
-top: 590px;
+top: 620px;
 width: 164px;
 height: 47px;
 z-index: 32;
@@ -155,7 +155,7 @@ z-index: 32;
 .smb1_med5{
 position: absolute;
 left: 373px;
-top: 183px;
+top: 213px;
 width: 158px;
 height: 77px;
 z-index: 31;
@@ -163,7 +163,7 @@ z-index: 31;
 .smb2_med5{
 position: absolute;
 left: 378px;
-top: 154px;
+top: 184px;
 width: 164px;
 height: 47px;
 z-index: 30;
@@ -171,7 +171,7 @@ z-index: 30;
 .smb3_med5{
 position: absolute;
 left: 389px;
-top: 94px;
+top: 124px;
 width: 164px;
 height: 47px;
 z-index: 29;
@@ -179,7 +179,7 @@ z-index: 29;
 .smb4_med5{
 position: absolute;
 left: 410px;
-top: 42px;
+top: 72px;
 width: 162px;
 height: 67px;
 z-index: 28;
@@ -187,7 +187,7 @@ z-index: 28;
 .smb5_med5{
 position: absolute;
 left: 523px;
-top: -25px;
+top: 5px;
 width: 164px;
 height: 54px;
 z-index: 27;
@@ -195,7 +195,7 @@ z-index: 27;
 .smb1_med2{
 position: absolute;
 left: 337px;
-top: 331px;
+top: 361px;
 width: 156px;
 height: 61px;
 z-index: 26;
@@ -203,7 +203,7 @@ z-index: 26;
 .smb2_med2{
 position: absolute;
 left: 319px;
-top: 389px;
+top: 419px;
 width: 165px;
 height: 47px;
 z-index: 25;
@@ -211,7 +211,7 @@ z-index: 25;
 .smb3_med2{
 position: absolute;
 left: 333px;
-top: 460px;
+top: 490px;
 width: 164px;
 height: 47px;
 z-index: 24;
@@ -219,7 +219,7 @@ z-index: 24;
 .smb4_med2{
 position: absolute;
 left: 354px;
-top: 503px;
+top: 533px;
 width: 162px;
 height: 67px;
 z-index: 23;
@@ -227,7 +227,7 @@ z-index: 23;
 .smb5_med2{
 position: absolute;
 left: 472px;
-top: 581px;
+top: 611px;
 width: 165px;
 height: 47px;
 z-index: 22;
@@ -235,7 +235,7 @@ z-index: 22;
 .smb5_med1_copy{
 position: absolute;
 left: 236px;
-top: -8px;
+top: 22px;
 width: 164px;
 height: 65px;
 z-index: 21;
@@ -243,7 +243,7 @@ z-index: 21;
 .smb4_med1_copy{
 position: absolute;
 left: 138px;
-top: 51px;
+top: 81px;
 width: 162px;
 height: 67px;
 z-index: 20;
@@ -251,7 +251,7 @@ z-index: 20;
 .smb3_med1_copy{
 position: absolute;
 left: 102px;
-top: 101px;
+top: 131px;
 width: 164px;
 height: 47px;
 z-index: 19;
@@ -259,7 +259,7 @@ z-index: 19;
 .smb2_med1_copy{
 position: absolute;
 left: 102px;
-top: 144px;
+top: 174px;
 width: 156px;
 height: 61px;
 z-index: 18;
@@ -267,7 +267,7 @@ z-index: 18;
 .smb1_med1_copy{
 position: absolute;
 left: 89px;
-top: 205px;
+top: 235px;
 width: 164px;
 height: 47px;
 z-index: 17;
@@ -275,7 +275,7 @@ z-index: 17;
 .smb5_med1{
 position: absolute;
 left: 193px;
-top: 581px;
+top: 611px;
 width: 164px;
 height: 47px;
 z-index: 16;
@@ -283,7 +283,7 @@ z-index: 16;
 .smb4_med1{
 position: absolute;
 left: 88px;
-top: 507px;
+top: 537px;
 width: 162px;
 height: 67px;
 z-index: 15;
@@ -291,7 +291,7 @@ z-index: 15;
 .smb3_med1{
 position: absolute;
 left: 59px;
-top: 470px;
+top: 500px;
 width: 165px;
 height: 47px;
 z-index: 14;
@@ -299,7 +299,7 @@ z-index: 14;
 .smb2_med1{
 position: absolute;
 left: 59px;
-top: 401px;
+top: 431px;
 width: 156px;
 height: 61px;
 z-index: 13;
@@ -307,7 +307,7 @@ z-index: 13;
 .smb1_med1{
 position: absolute;
 left: 51px;
-top: 342px;
+top: 372px;
 width: 164px;
 height: 47px;
 z-index: 12;
@@ -315,7 +315,7 @@ z-index: 12;
 .sma5_medb2{
 position: absolute;
 left: 786px;
-top: 291px;
+top: 321px;
 width: 122px;
 height: 87px;
 z-index: 11;
@@ -323,7 +323,7 @@ z-index: 11;
 .sma4_medb2{
 position: absolute;
 left: 807px;
-top: 392px;
+top: 422px;
 width: 119px;
 height: 94px;
 z-index: 10;
@@ -331,7 +331,7 @@ z-index: 10;
 .sma3_medb2{
 position: absolute;
 left: 849px;
-top: 331px;
+top: 361px;
 width: 143px;
 height: 69px;
 z-index: 9;
@@ -339,7 +339,7 @@ z-index: 9;
 .sma2_medb2{
 position: absolute;
 left: 932px;
-top: 409px;
+top: 439px;
 width: 99px;
 height: 119px;
 z-index: 8;
@@ -347,7 +347,7 @@ z-index: 8;
 .sma1_medb2{
 position: absolute;
 left: 963px;
-top: 368px;
+top: 398px;
 width: 147px;
 height: 61px;
 z-index: 7;
@@ -355,7 +355,7 @@ z-index: 7;
 .sma5_medb1{
 position: absolute;
 left: 890px;
-top: 213px;
+top: 243px;
 width: 120px;
 height: 91px;
 z-index: 6;
@@ -363,7 +363,7 @@ z-index: 6;
 .sma4_medb1{
 position: absolute;
 left: 990px;
-top: 197px;
+top: 227px;
 width: 120px;
 height: 92px;
 z-index: 5;
@@ -371,7 +371,7 @@ z-index: 5;
 .sma3_medb1{
 position: absolute;
 left: 763px;
-top: 167px;
+top: 197px;
 width: 120px;
 height: 92px;
 z-index: 4;
@@ -379,7 +379,7 @@ z-index: 4;
 .sma2_medb1{
 position: absolute;
 left: 911px;
-top: 129px;
+top: 159px;
 width: 120px;
 height: 92px;
 z-index: 3;
@@ -387,8 +387,9 @@ z-index: 3;
 .sma1_medb1{
 position: absolute;
 left: 1009px;
-top: 110px;
+top: 140px;
 width: 120px;
 height: 91px;
 z-index: 2;
 }
+
