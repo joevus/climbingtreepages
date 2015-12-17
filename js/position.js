@@ -60,10 +60,8 @@ var branchImgEles = [];
 //Availabes
 var bigBrAv = {};
 var medBrsAv = [];
-var iMAv = 0; //medBrsAv Index
 
 for(var i = 0; i < branchImgs.length; i++) {
-	console.log("loop working, on i = " + i);
 	var img = document.createElement("img");
 	img.src = "img/branches/" + branchImgs[i].file + ".png";
 	// Add css class branch, and the class in cssClass for specific positioning
@@ -77,10 +75,51 @@ for(var i = 0; i < branchImgs.length; i++) {
 		bigBrAv.img = img;
 	}
 	if(branchImgs[i].file.search(/med/) != -1 && branchImgs[i].file.search(/sm/) === -1) {
-		medBrsAv[iMAv] = {};
-		medBrsAv[iMAv].img = img;
+		//Put medb1 and medb2 in index 6 and 7
+		if(branchImgs[i].file.search(/medb/) != -1){
+			var iNew = findINew('medb', i) + 6;
+			// var strLoc = branchImgs[i].file.search(/medb/) + 4;
+			// var iNew = parseInt((branchImgs[i].file.substr(strLoc, 1)));
+			// Make medBrsAv[iNew] and object, avoid writing over it.
+			if(medBrsAv[iNew] ===undefined) {medBrsAv[iNew] = {};}
+			medBrsAv[iNew].img = img;
+		} else {
+			var iNew = findINew('med', i);
+			if(medBrsAv[iNew] ===undefined) {medBrsAv[iNew] = {};}
+			medBrsAv[iNew].img = img;
+		}
+	//for sm branches
+	} else if (branchImgs[i].file.search(/med/) != -1 && branchImgs[i].file.search(/sm/) != -1) {
+		//find index of medium branch this small branch is on
+		//	-iNewM stands for iNew for medium branch
+		if(branchImgs[i].file.search(/medb/) != -1) { var iNewM = findINew('medb', i) + 6;}
+		else {var iNewM = findINew('med', i);}
+		//Insert this small branch into brsAv array of its parent in medBrsAv
+		//	-First find index where this small branch should go.
+		var iNewS = findINew('sm', i);
+		//	-Next put it in the brsAv array of its parent
+		console.log("iNewM " + iNewM);
+		console.log("iNewS " + iNewS);
+		console.log("medBrsAv[iNewM] " + medBrsAv[iNewM]);
+		// Make medBrsAv[iNewM] and object, avoid writing over it.
+		if(medBrsAv[iNewM] === undefined) {medBrsAv[iNewM] = {};}
+		// Make medBrsAv[iNew].brsAv an array, avoid writing over it.
+		if(medBrsAv[iNewM].brsAv === undefined) {medBrsAv[iNewM].brsAv = [];}
+		// Make medBrsAv[iNew].brsAv[iNewS] an object, avoid writing over it.
+		if(medBrsAv[iNewM].brsAv[iNewS] === undefined) {medBrsAv[iNewM].brsAv[iNewS] = {};}
+		medBrsAv[iNewM].brsAv[iNewS].img = img;
 	}
 
+
+}
+
+function findINew(str, curI) {
+	//str: a string (examples: /med/, /medb/, /sm/)
+	//curI: is current i, also nod to Madame Curie
+	//Returns integer immediately after the regx in branchImgs[i].file
+	var strLoc = branchImgs[curI].file.search(str) + str.length;
+	var newI = parseInt(branchImgs[curI].file.substr(strLoc, 1)) - 1;
+	return newI;
 }
 // var testImg = document.createElement("img");
 // testImg.src = "img/branches/" + branchImgs[0].file + ".png";
