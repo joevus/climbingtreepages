@@ -8,47 +8,54 @@ var branchImgs = [
 	{file: "med6", cssClass: "med6"},
 	{file: "medb1", cssClass: "medb1"},
 	{file: "medb2", cssClass: "medb2"},
-	{file: "sma1-medb1", cssClass: "sma1_medb1"},
-	{file: "sma1-medb2", cssClass: "sma1_medb2"},
-	{file: "sma2-medb1", cssClass: "sma2_medb1"},
-	{file: "sma2-medb2", cssClass: "sma2_medb2"},
-	{file: "sma3-medb1", cssClass: "sma3_medb1"},
-	{file: "sma3-medb2", cssClass: "sma3_medb2"},
-	{file: "sma4-medb1", cssClass: "sma4_medb1"},
-	{file: "sma4-medb2", cssClass: "sma4_medb2"},
-	{file: "sma5-medb1", cssClass: "sma5_medb1"},
-	{file: "sma5-medb2", cssClass: "sma5_medb2"},
-	{file: "smb1-med1 copy", cssClass: "smb1_med1_copy"},
-	{file: "smb1-med1", cssClass: "smb1_med1"},
-	{file: "smb1-med2", cssClass: "smb1_med2"},
-	{file: "smb1-med3", cssClass: "smb1_med3"},
-	{file: "smb1-med5", cssClass: "smb1_med5"},
-	{file: "smb1-med6", cssClass: "smb1_med6"},
-	{file: "smb2-med1 copy", cssClass: "smb2_med1_copy"},
-	{file: "smb2-med1", cssClass: "smb2_med1"},
-	{file: "smb2-med2", cssClass: "smb2_med2"},
-	{file: "smb2-med3", cssClass: "smb2_med3"},
-	{file: "smb2-med5", cssClass: "smb2_med5"},
-	{file: "smb2-med6", cssClass: "smb2_med6"},
-	{file: "smb3-med1 copy", cssClass: "smb3_med1_copy"},
-	{file: "smb3-med1", cssClass: "smb3_med1"},
-	{file: "smb3-med2", cssClass: "smb3_med2"},
-	{file: "smb3-med3", cssClass: "smb3_med3"},
-	{file: "smb3-med5", cssClass: "smb3_med5"},
-	{file: "smb3-med6", cssClass: "smb3_med6"},
-	{file: "smb4-med1 copy", cssClass: "smb4_med1_copy"},
-	{file: "smb4-med1", cssClass: "smb4_med1"},
-	{file: "smb4-med2", cssClass: "smb4_med2"}, 
-	{file: "smb4-med3", cssClass: "smb4_med3"},
-	{file: "smb4-med5", cssClass: "smb4_med5"},
-	{file: "smb4-med6", cssClass: "smb4_med6"},
-	{file: "smb5-med1 copy", cssClass: "smb5_med1_copy"},
-	{file: "smb5-med1", cssClass: "smb5_med1"},
-	{file: "smb5-med2", cssClass: "smb5_med2"},
-	{file: "smb5-med3", cssClass: "smb5_med3"},
-	{file: "smb5-med5", cssClass: "smb5_med5"},
-	{file: "smb5-med6", cssClass: "smb5_med6"}
+	{file: "sm1-medb1", cssClass: "sm1_medb1"},
+	{file: "sm1-medb2", cssClass: "sm1_medb2"},
+	{file: "sm2-medb1", cssClass: "sm2_medb1"},
+	{file: "sm2-medb2", cssClass: "sm2_medb2"},
+	{file: "sm3-medb1", cssClass: "sm3_medb1"},
+	{file: "sm3-medb2", cssClass: "sm3_medb2"},
+	{file: "sm4-medb1", cssClass: "sm4_medb1"},
+	{file: "sm4-medb2", cssClass: "sm4_medb2"},
+	{file: "sm5-medb1", cssClass: "sm5_medb1"},
+	{file: "sm5-medb2", cssClass: "sm5_medb2"},
+	{file: "sm1-med4", cssClass: "sm1_med4"},
+	{file: "sm1-med1", cssClass: "sm1_med1"},
+	{file: "sm1-med2", cssClass: "sm1_med2"},
+	{file: "sm1-med3", cssClass: "sm1_med3"},
+	{file: "sm1-med5", cssClass: "sm1_med5"},
+	{file: "sm1-med6", cssClass: "sm1_med6"},
+	{file: "sm2-med4", cssClass: "sm2_med4"},
+	{file: "sm2-med1", cssClass: "sm2_med1"},
+	{file: "sm2-med2", cssClass: "sm2_med2"},
+	{file: "sm2-med3", cssClass: "sm2_med3"},
+	{file: "sm2-med5", cssClass: "sm2_med5"},
+	{file: "sm2-med6", cssClass: "sm2_med6"},
+	{file: "sm3-med4", cssClass: "sm3_med4"},
+	{file: "sm3-med1", cssClass: "sm3_med1"},
+	{file: "sm3-med2", cssClass: "sm3_med2"},
+	{file: "sm3-med3", cssClass: "sm3_med3"},
+	{file: "sm3-med5", cssClass: "sm3_med5"},
+	{file: "sm3-med6", cssClass: "sm3_med6"},
+	{file: "sm4-med4", cssClass: "sm4_med4"},
+	{file: "sm4-med1", cssClass: "sm4_med1"},
+	{file: "sm4-med2", cssClass: "sm4_med2"}, 
+	{file: "sm4-med3", cssClass: "sm4_med3"},
+	{file: "sm4-med5", cssClass: "sm4_med5"},
+	{file: "sm4-med6", cssClass: "sm4_med6"},
+	{file: "sm5-med4", cssClass: "sm5_med4"},
+	{file: "sm5-med1", cssClass: "sm5_med1"},
+	{file: "sm5-med2", cssClass: "sm5_med2"},
+	{file: "sm5-med3", cssClass: "sm5_med3"},
+	{file: "sm5-med5", cssClass: "sm5_med5"},
+	{file: "sm5-med6", cssClass: "sm5_med6"}
 ];
+//****NEXT STEP****
+//Change file names of images to something that makes more sense:
+//sm1-sm5 for each medium branch. Then use search for substrings
+//or regex to assign each image to corresponding "available" arrays
+//and objects. See available.js.
+//document elements of images with class and srcs to boot.
+var branchImgEles = [];
 
 for(var i = 0; i < branchImgs.length; i++) {
 	var img = document.createElement("img");
@@ -58,6 +65,7 @@ for(var i = 0; i < branchImgs.length; i++) {
 	$(img).addClass("branch " + branchImgs[i].cssClass);
 	//append to body
 	$(img).appendTo("body");
+	branchImgEles[i] = img;
 	console.log("loop working, on i = " + i);
 }
 // var testImg = document.createElement("img");
