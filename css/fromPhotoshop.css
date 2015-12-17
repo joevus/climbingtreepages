@@ -72,7 +72,7 @@ width: 224px;
 height: 359px;
 z-index: 42;
 }
-.smb3_med6{
+.sm3_med6{
 position: absolute;
 left: 624px;
 top: 124px;
@@ -80,7 +80,7 @@ width: 162px;
 height: 67px;
 z-index: 41;
 }
-.smb1_med6{
+.sm1_med6{
 position: absolute;
 left: 617px;
 top: 227px;
@@ -88,7 +88,7 @@ width: 156px;
 height: 61px;
 z-index: 40;
 }
-.smb4_med6{
+.sm4_med6{
 position: absolute;
 left: 645px;
 top: 75px;
@@ -96,7 +96,7 @@ width: 164px;
 height: 47px;
 z-index: 39;
 }
-.smb2_med6{
+.sm2_med6{
 position: absolute;
 left: 621px;
 top: 181px;
@@ -104,7 +104,7 @@ width: 164px;
 height: 47px;
 z-index: 38;
 }
-.smb5_med6{
+.sm5_med6{
 position: absolute;
 left: 755px;
 top: 5px;
@@ -112,7 +112,7 @@ width: 164px;
 height: 47px;
 z-index: 37;
 }
-.smb3_med3{
+.sm3_med3{
 position: absolute;
 left: 610px;
 top: 498px;
@@ -120,7 +120,7 @@ width: 161px;
 height: 67px;
 z-index: 36;
 }
-.smb1_med3{
+.sm1_med3{
 position: absolute;
 left: 604px;
 top: 401px;
@@ -128,7 +128,7 @@ width: 156px;
 height: 61px;
 z-index: 35;
 }
-.smb4_med3{
+.sm4_med3{
 position: absolute;
 left: 633px;
 top: 554px;
@@ -136,7 +136,7 @@ width: 164px;
 height: 47px;
 z-index: 34;
 }
-.smb2_med3{
+.sm2_med3{
 position: absolute;
 left: 607px;
 top: 462px;
@@ -144,7 +144,7 @@ width: 164px;
 height: 47px;
 z-index: 33;
 }
-.smb5_med3{
+.sm5_med3{
 position: absolute;
 left: 735px;
 top: 620px;
@@ -152,7 +152,7 @@ width: 164px;
 height: 47px;
 z-index: 32;
 }
-.smb1_med5{
+.sm1_med5{
 position: absolute;
 left: 373px;
 top: 213px;
@@ -160,7 +160,7 @@ width: 158px;
 height: 77px;
 z-index: 31;
 }
-.smb2_med5{
+.sm2_med5{
 position: absolute;
 left: 378px;
 top: 184px;
@@ -168,7 +168,7 @@ width: 164px;
 height: 47px;
 z-index: 30;
 }
-.smb3_med5{
+.sm3_med5{
 position: absolute;
 left: 389px;
 top: 124px;
@@ -176,7 +176,7 @@ width: 164px;
 height: 47px;
 z-index: 29;
 }
-.smb4_med5{
+.sm4_med5{
 position: absolute;
 left: 410px;
 top: 72px;
@@ -184,7 +184,7 @@ width: 162px;
 height: 67px;
 z-index: 28;
 }
-.smb5_med5{
+.sm5_med5{
 position: absolute;
 left: 523px;
 top: 5px;
@@ -192,7 +192,7 @@ width: 164px;
 height: 54px;
 z-index: 27;
 }
-.smb1_med2{
+.sm1_med2{
 position: absolute;
 left: 337px;
 top: 361px;
@@ -200,7 +200,7 @@ width: 156px;
 height: 61px;
 z-index: 26;
 }
-.smb2_med2{
+.sm2_med2{
 position: absolute;
 left: 319px;
 top: 419px;
@@ -208,7 +208,7 @@ width: 165px;
 height: 47px;
 z-index: 25;
 }
-.smb3_med2{
+.sm3_med2{
 position: absolute;
 left: 333px;
 top: 490px;
@@ -216,7 +216,7 @@ width: 164px;
 height: 47px;
 z-index: 24;
 }
-.smb4_med2{
+.sm4_med2{
 position: absolute;
 left: 354px;
 top: 533px;
@@ -224,7 +224,7 @@ width: 162px;
 height: 67px;
 z-index: 23;
 }
-.smb5_med2{
+.sm5_med2{
 position: absolute;
 left: 472px;
 top: 611px;
@@ -232,7 +232,7 @@ width: 165px;
 height: 47px;
 z-index: 22;
 }
-.smb5_med1_copy{
+.sm5_med4{
 position: absolute;
 left: 236px;
 top: 22px;
@@ -240,7 +240,7 @@ width: 164px;
 height: 65px;
 z-index: 21;
 }
-.smb4_med1_copy{
+.sm4_med4{
 position: absolute;
 left: 138px;
 top: 81px;
@@ -248,7 +248,7 @@ width: 162px;
 height: 67px;
 z-index: 20;
 }
-.smb3_med1_copy{
+.sm3_med4{
 position: absolute;
 left: 102px;
 top: 131px;
@@ -256,7 +256,7 @@ width: 164px;
 height: 47px;
 z-index: 19;
 }
-.smb2_med1_copy{
+.sm2_med4{
 position: absolute;
 left: 102px;
 top: 174px;
@@ -264,7 +264,7 @@ width: 156px;
 height: 61px;
 z-index: 18;
 }
-.smb1_med1_copy{
+.sm1_med4{
 position: absolute;
 left: 89px;
 top: 235px;
@@ -272,7 +272,7 @@ width: 164px;
 height: 47px;
 z-index: 17;
 }
-.smb5_med1{
+.sm5_med1{
 position: absolute;
 left: 193px;
 top: 611px;
@@ -280,7 +280,7 @@ width: 164px;
 height: 47px;
 z-index: 16;
 }
-.smb4_med1{
+.sm4_med1{
 position: absolute;
 left: 88px;
 top: 537px;
@@ -288,7 +288,7 @@ width: 162px;
 height: 67px;
 z-index: 15;
 }
-.smb3_med1{
+.sm3_med1{
 position: absolute;
 left: 59px;
 top: 500px;
@@ -296,7 +296,7 @@ width: 165px;
 height: 47px;
 z-index: 14;
 }
-.smb2_med1{
+.sm2_med1{
 position: absolute;
 left: 59px;
 top: 431px;
@@ -304,7 +304,7 @@ width: 156px;
 height: 61px;
 z-index: 13;
 }
-.smb1_med1{
+.sm1_med1{
 position: absolute;
 left: 51px;
 top: 372px;
@@ -312,7 +312,7 @@ width: 164px;
 height: 47px;
 z-index: 12;
 }
-.sma5_medb2{
+.sm5_medb2{
 position: absolute;
 left: 786px;
 top: 321px;
@@ -320,7 +320,7 @@ width: 122px;
 height: 87px;
 z-index: 11;
 }
-.sma4_medb2{
+.sm4_medb2{
 position: absolute;
 left: 807px;
 top: 422px;
@@ -328,7 +328,7 @@ width: 119px;
 height: 94px;
 z-index: 10;
 }
-.sma3_medb2{
+.sm3_medb2{
 position: absolute;
 left: 849px;
 top: 361px;
@@ -336,7 +336,7 @@ width: 143px;
 height: 69px;
 z-index: 9;
 }
-.sma2_medb2{
+.sm2_medb2{
 position: absolute;
 left: 932px;
 top: 439px;
@@ -344,7 +344,7 @@ width: 99px;
 height: 119px;
 z-index: 8;
 }
-.sma1_medb2{
+.sm1_medb2{
 position: absolute;
 left: 963px;
 top: 398px;
@@ -352,7 +352,7 @@ width: 147px;
 height: 61px;
 z-index: 7;
 }
-.sma5_medb1{
+.sm5_medb1{
 position: absolute;
 left: 890px;
 top: 243px;
@@ -360,7 +360,7 @@ width: 120px;
 height: 91px;
 z-index: 6;
 }
-.sma4_medb1{
+.sm4_medb1{
 position: absolute;
 left: 990px;
 top: 227px;
@@ -368,7 +368,7 @@ width: 120px;
 height: 92px;
 z-index: 5;
 }
-.sma3_medb1{
+.sm3_medb1{
 position: absolute;
 left: 763px;
 top: 197px;
@@ -376,7 +376,7 @@ width: 120px;
 height: 92px;
 z-index: 4;
 }
-.sma2_medb1{
+.sm2_medb1{
 position: absolute;
 left: 911px;
 top: 159px;
@@ -384,7 +384,7 @@ width: 120px;
 height: 92px;
 z-index: 3;
 }
-.sma1_medb1{
+.sm1_medb1{
 position: absolute;
 left: 1009px;
 top: 140px;

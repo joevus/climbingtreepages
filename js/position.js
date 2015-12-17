@@ -57,7 +57,13 @@ var branchImgs = [
 //document elements of images with class and srcs to boot.
 var branchImgEles = [];
 
+//Availabes
+var bigBrAv = {};
+var medBrsAv = [];
+var iMAv = 0; //medBrsAv Index
+
 for(var i = 0; i < branchImgs.length; i++) {
+	console.log("loop working, on i = " + i);
 	var img = document.createElement("img");
 	img.src = "img/branches/" + branchImgs[i].file + ".png";
 	// Add css class branch, and the class in cssClass for specific positioning
@@ -66,7 +72,15 @@ for(var i = 0; i < branchImgs.length; i++) {
 	//append to body
 	$(img).appendTo("body");
 	branchImgEles[i] = img;
-	console.log("loop working, on i = " + i);
+	
+	if(branchImgs[i].file.search(/big/) != -1) {
+		bigBrAv.img = img;
+	}
+	if(branchImgs[i].file.search(/med/) != -1 && branchImgs[i].file.search(/sm/) === -1) {
+		medBrsAv[iMAv] = {};
+		medBrsAv[iMAv].img = img;
+	}
+
 }
 // var testImg = document.createElement("img");
 // testImg.src = "img/branches/" + branchImgs[0].file + ".png";
