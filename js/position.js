@@ -98,9 +98,6 @@ for(var i = 0; i < branchImgs.length; i++) {
 		//	-First find index where this small branch should go.
 		var iNewS = findINew('sm', i);
 		//	-Next put it in the brsAv array of its parent
-		console.log("iNewM " + iNewM);
-		console.log("iNewS " + iNewS);
-		console.log("medBrsAv[iNewM] " + medBrsAv[iNewM]);
 		// Make medBrsAv[iNewM] and object, avoid writing over it.
 		if(medBrsAv[iNewM] === undefined) {medBrsAv[iNewM] = {};}
 		// Make medBrsAv[iNew].brsAv an array, avoid writing over it.
@@ -109,8 +106,15 @@ for(var i = 0; i < branchImgs.length; i++) {
 		if(medBrsAv[iNewM].brsAv[iNewS] === undefined) {medBrsAv[iNewM].brsAv[iNewS] = {};}
 		medBrsAv[iNewM].brsAv[iNewS].img = img;
 	}
+}
 
-
+//print out medBrsAv to check how it populated
+for(i=0; i<medBrsAv.length; i++) {
+	console.log("medBrsAv[" + i + "].img: " + medBrsAv[i].img.src);
+	console.log("and the brsAv: ");
+	for(var j = 0; j<medBrsAv[i].brsAv.length; j++) {
+		console.log("    -" + medBrsAv[i].brsAv[j].img.src);
+	}
 }
 
 function findINew(str, curI) {
